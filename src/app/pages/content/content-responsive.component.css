@@ -1,0 +1,21 @@
+@media (max-width: 499px) {
+  .content__cover > img {
+    width: 400px;
+    height: 240px;
+  }
+
+  .content__description {
+    width: 400px;
+  }
+}
+
+@media (max-width: 399px) {
+  .content__cover > img {
+    width: 300px;
+    height: 180px;
+  }
+
+  .content__description {
+    width: 300px;
+  }
+}

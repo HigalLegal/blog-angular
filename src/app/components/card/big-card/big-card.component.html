@@ -1,0 +1,11 @@
+<div class="container__big-card">
+  <div class="big-card__image" *ngIf="width > 408">
+    <img [src]="photoCover" alt="" />
+  </div>
+  <div class="big-card__tile">
+    <a [routerLink]="['content', idContent]" >{{ cardTitle }}</a>
+  </div>
+  <div class="big-card__description">
+    <p>{{ cardDescription }}</p>
+  </div>
+</div>

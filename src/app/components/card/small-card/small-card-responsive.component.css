@@ -1,0 +1,39 @@
+@media (max-width:770px) {
+
+  .container__small-card-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-card__tile {
+    width: 600px;
+  }
+
+  .small-card__image > img {
+    margin-right: 0px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .small-card__tile {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .small-card__tile {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .small-card__tile {
+    width: 300px;
+  }
+
+  .small-card__tile > h2 {
+    font-size: 18px;
+  }
+}

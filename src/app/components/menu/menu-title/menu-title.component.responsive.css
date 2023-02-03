@@ -1,0 +1,23 @@
+@media (max-width: 1047px) {
+  .menu__title__container > h1 {
+    font-size: 120px;
+  }
+}
+
+@media(max-width: 837px) {
+  .menu__title__container > h1 {
+    font-size: 90px;
+  }
+}
+
+@media(max-width: 628px) {
+  .menu__title__container > h1 {
+    font-size: 60px;
+  }
+}
+
+@media(max-width: 418px) {
+  .menu__title__container > h1 {
+    font-size: 30px;
+  }
+}

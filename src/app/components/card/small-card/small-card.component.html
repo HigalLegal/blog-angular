@@ -1,0 +1,15 @@
+<div class="container__small-card-content">
+  <div class="small-card__image">
+    <img [src]="cardImage" alt="">
+  </div>
+  <div class="small-card__tile">
+    <h2>
+      <a [routerLink]="['content', idContent]">{{ cardTitle }}</a>
+    </h2>
+  </div>
+</div>
+
+<div class="container__spacing">
+  <hr>
+  <br>
+</div>

@@ -1,0 +1,30 @@
+@media (max-width: 1107px) {
+  .articles {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:770px) {
+
+  .articles__others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 708px) {
+  .articles__main {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 408px) {
+  .articles__main {
+    margin-bottom: 50px;
+  }
+}
